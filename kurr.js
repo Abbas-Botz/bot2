@@ -1106,7 +1106,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan🏴‍☠️`
+menu =` Abbas Bot Assistan🏴‍☠️`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
 {buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
@@ -1135,7 +1135,7 @@ else if(menusimpel = true){
         stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `┌───「 \`\`\`Kurz Bot Assistan\`\`\` 」
+       menu = `┌───「 \`\`\`Abbas Bot Assistan\`\`\` 」
 │
 🏴‍☠️ _Creator : *KurrXd* 
 🏴‍☠️ _Battery : ${baterai.battery}_
@@ -1145,7 +1145,7 @@ else if(menusimpel = true){
 │
 🏴‍☠️───「 \`\`\`INFO BOT\`\`\` 」
 │
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : Abbas Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1159,7 +1159,7 @@ else if(menusimpel = true){
 🏴‍☠️ _Nomor : @${stod.split('@')[0]}_
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
-└───「 \`\`\`Kurz Bot Assistan\`\`\` 」`
+└───「 \`\`abbas Bot Assistan\`\`\` 」`
 sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
@@ -1167,8 +1167,8 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '🏴‍☠️ Abbas Bot Assistan 🏴‍☠️'
+       ownerJid = "994404653464@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
@@ -1177,7 +1177,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : Abbas Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1452,7 +1452,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Kurz Bot Assistan`,
+footerText: abbas Bot Assistan`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1476,7 +1476,7 @@ const serialUser = createSerial(18)
 🏴‍☠️ *🏴‍☠️ Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 Abbas Bot Assistan 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
@@ -1485,7 +1485,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© kurr_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_©Abbas_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1498,7 +1498,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Kurz Bot Assistan_*',
+ footerText: '*_© Abbas Bot Assistan_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2758,12 +2758,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `Kurz Bot Assistan`,
+    "hydratedFooterText": Abbas Bot Assistan`,
     "hydratedButtons": [
       {
         "urlButton": {
           "displayText": `Script Kurz Bot Assistan`,
-          "url": "https://github.com/KurrXd"
+          "url": "https://github.com/Abbas-botz"
         },
         "index": 0
       }
